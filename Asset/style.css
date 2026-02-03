@@ -134,8 +134,13 @@ header,nav,ul,li,.connect{
             border-radius: 0.25rem;
         }
     }
+.part1_images img{
+    position: absolute;
+    right:24rem;
+}
 
 .partII{
+
     text-align: center;
     gap: 40px;
     padding: 70px 0;
@@ -155,4 +160,9 @@ header,nav,ul,li,.connect{
     justify-content: space-between;
     padding:2rem 0;
 
+}
+.services_part2_community{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0;
 }
